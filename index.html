@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/973f7fabdf.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Navbar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Coding <span class="accent">Addict</span></h1>
+                <span class="side">Coding Addict</span>
+            </div>
+
+            <div id="menu" class="bars deselect">
+                <ul class="navigation">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a href="#Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#Behance"><i class="fa-brands fa-behance"></i></a></li>
+                    <li><a href="#Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#Sketch"><i class="fa-brands fa-sketch"></i></a></li>
+                </ul>
+            </div>
+
+            <button id="bars" onclick="changeMenuState()" class="shift burger"><i id="btnOn" class="fa-solid fa-bars"></i><i id="btnOff" class="non-visible fa-solid fa-x"></i></button>
+        </nav>
+    </header>
+</body>
+</html>
